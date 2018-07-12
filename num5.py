@@ -3,9 +3,9 @@ list=[]
 for i in str:
   if(i!=" "):
     list.append(i)
-a=list[0]
-b=list[1]
-c=list[2]
+a=int(list[0])
+b=int(list[1])
+c=int(list[2])
 
 if((a>>b)and(a>>c)):
   print(a)

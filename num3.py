@@ -7,6 +7,9 @@ for i in vows:
 conss="bcdfghjklmnpqrstvwxyz"
 for j in conss:
   if(j==char):
-    print("Consonant")
-  else:
-    print("invalid")
+    break
+if(j==char):
+  print("Consonant")
+else:
+  print("invalid")
+

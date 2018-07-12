@@ -8,7 +8,7 @@ for j in alphc:
   if(j==char):
     break;
 if((i==char)or(j==char)):
-  print("yes")
+  print("Alphabet")
 else:
   print("No")
  
